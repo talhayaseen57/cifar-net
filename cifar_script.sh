@@ -31,7 +31,7 @@ echo "------- setup done ! -----"
 source ${HOME}/.bashrc
 eval "$(conda shell.bash hook)"
 
-conda activate cifarTuts
+conda activate cifar-env
 
 srun nvidia-smi
 
